@@ -1,9 +1,11 @@
+
+require("dotenv").config();
 //database information to connect app with database.
 const sqlConfig = {
-    user:'aman',
-    password:'aman@123',
-    server:'192.168.29.2',
-    database:'MyBooking',
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    server: process.env.SERVER,
+    database: process.env.DATABASE,
     options: {
         encrypt: false,
         trustedConnection: true, // Use Windows Authentication
