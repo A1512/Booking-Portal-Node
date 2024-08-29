@@ -1,0 +1,11 @@
+# Ignore all .env files
+*.env
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore all text files
+*.txt
+
+# Ignore a specific file in a subdirectory
+#/path/to/directory/file.txt
